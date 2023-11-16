@@ -1,5 +1,3 @@
-# README
-
 Problema retirado de: https://github.com/AmeDigital/challenge-back-end-hit
 
 
