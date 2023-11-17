@@ -1,24 +1,25 @@
-# README
+Problema retirado de: https://github.com/AmeDigital/challenge-back-end-hit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Dando continuidade ao nosso processo, temos um desafio para te propor! \o/
 
-* Ruby version
+Nossos associados são aficionados por Star Wars e com isso, queremos criar um jogo com algumas informações da franquia.
 
-* System dependencies
+Para possibilitar a equipe de front criar essa aplicação, queremos desenvolver uma API que contenha os dados dos planetas.
 
-* Configuration
+Requisitos:
 
-* Database creation
+A API deve ser REST
+Para cada planeta, os seguintes dados devem ser obtidos do banco de dados da aplicação, sendo inserido manualmente:
+* Nome
+* Clima
+* Terreno
+* Para cada planeta também devemos ter a quantidade de aparições em filmes, que podem ser obtidas pela API pública do Star Wars: https://swapi.co/.
 
-* Database initialization
+Funcionalidades desejadas:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Adicionar um planeta (com nome, clima e terreno)
+* Listar planetas
+* Buscar por nome
+* Buscar por ID
+* Remover planeta
