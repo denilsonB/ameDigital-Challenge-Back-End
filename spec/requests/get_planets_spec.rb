@@ -4,7 +4,7 @@ RSpec.describe "Planets", type: :request do
   let!(:planets){FactoryBot.create_list(:planet,5)}
 
   before do 
-    get '/api/planets', params: {format: :json}
+    get '/planets', params: {format: :json}
   end
 
   it "return all planets" do
